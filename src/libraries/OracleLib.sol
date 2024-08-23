@@ -5,7 +5,6 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/interfaces/Ag
 
 /*
  * @title OracleLib
- * @author Patrick Collins
  * //@note check CL priceFeed for stale data => this can happen in real life scenarios =>  so, we need to test this
  * @notice This library is used to check the Chainlink Oracle for stale data.
  * If a price is stale, functions will revert, and render the DSCEngine unusable - this is by design.
